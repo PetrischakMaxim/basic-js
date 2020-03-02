@@ -135,7 +135,7 @@ describe('Dream team', () => {
     });
   });
 
-  describe('functional requirements ', () => {   
+  describe('functional requirements ', () => {
     it.optional('should handle whitespaces', () => {
       assert.equal(createDreamTeam([
         '   William Alston ',
